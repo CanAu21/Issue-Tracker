@@ -1,0 +1,40 @@
+body{
+    width: 100wh;
+    height: 100vh;
+    background: rgb(101, 4, 186);
+    
+}
+
+.well{
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(239, 180, 241, 0.6);
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 600px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background: rgb(204, 190, 190,0.2) !important;
+    color: whitesmoke;
+}
+
+.well .btn-warning{
+    margin-right: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: rgb(204, 190, 190,0.2) !important;
+    color: whitesmoke !important;
+}
+
+label{
+    color: rgb(219, 218, 218);
+}
+
+::placeholder{
+    color: rgb(255, 255, 255,0.7) !important;
+}
